@@ -29,7 +29,7 @@ const LineChart = () => {
     datasets: [
       {
         label: "Users",
-        data: [200, 250, 230, 280, 250, 300, 270, 320, 290, 310],
+        data: [200, 210, 230, 280, 275, 300, 290, 295, 290, 310],
         borderColor: "rgba(168, 85, 247, 1)", // Purple line
         backgroundColor: (context) => {
           const ctx = context.chart.ctx;
@@ -39,8 +39,8 @@ const LineChart = () => {
           return gradient;
         },
         fill: true,
-        borderWidth: 2,
-        tension: 0.4,
+        borderWidth: 1,
+        tension: 0.1,
         pointRadius: 0,
       },
     ],
@@ -54,30 +54,32 @@ const LineChart = () => {
         display: false,
       },
       tooltip: {
-        enabled: false,
+        enabled: true,
       },
     },
     scales: {
       x: {
         grid: {
           display: false,
+
         },
         border: {
-          display: false,
+          display: true,
         },
         ticks: {
-          display: false,
+          display: true,
         },
       },
       y: {
         grid: {
-          display: false,
+          display: true,
+          color: "rgba(255, 255, 255, 0.1)",
         },
         border: {
-          display: false,
+          display: true,
         },
         ticks: {
-          display: false,
+          display: true,
         },
       },
     },
@@ -86,14 +88,19 @@ const LineChart = () => {
         tension: 0.4,
       },
     },
+    interaction: {
+      mode: 'index',
+      intersect: false,
+    },
+    hover: {
+      mode: 'index',
+      intersect: false,
+    },
   };
 
   return (
-    <div className="p-6 bg-black rounded-xl shadow-lg w-full max-w-lg">
-      <div className="flex justify-end mb-2">
-        
-      </div>
-      <div className="h-40">
+    <div className="bg-transparent rounded-xl h-full w-full">
+      <div className="h-full">
         <Line data={data} options={options} />
       </div>
     </div>

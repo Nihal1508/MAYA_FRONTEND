@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        purplePrimary: "#6B46C1", // Add custom colors if needed for the design.
+        purplePrimary: "#BB92FF", // Add custom colors if needed for the design.
         grayDark: "#1F1F1F",
       },
+
     },
   },
+
   plugins: [],
 }
 

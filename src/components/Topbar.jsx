@@ -5,7 +5,7 @@ import adminsIcon from '../assets/images/adminsno.png';
 import bellIcon from '../assets/images/bell.png';
 import profileIcon from '../assets/images/profile.png';
 
-const Topbar = ({title}) => {
+const Topbar = ({ title }) => {
   const [showPopup, setShowPopup] = useState(false);
 
   const handleAdminsClick = () => {
@@ -15,8 +15,8 @@ const Topbar = ({title}) => {
   return (
     <div className="flex justify-between items-center mb-10 ">
       <div>
-        <h1 className="text-3xl font-bold">{title}</h1>
-        <p className="text-gray-400 text-sm font-mono text-left">30th Jan 2025</p>
+        <h1 className="text-2xl font-bold">{title}</h1>
+        <p className="text-white text-sm  text-left">30th Jan 2025</p>
       </div>
       <div className="flex items-center space-x-4">
         {/* Search Button */}

@@ -7,7 +7,7 @@ import Chart from 'chart.js/auto';
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>    
+  <StrictMode>  
     <Router>
       <App />
     </Router>

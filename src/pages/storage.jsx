@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "./sidebar";
-import Topbar from "./topbar";
+import Sidebar from "../components/sidebar";
+import Topbar from "../components/topbar";
 import Event1 from "../assets/images/event1.png";
 import Event2 from "../assets/images/event2.png";
 import Event3 from "../assets/images/event3.png";
@@ -41,7 +41,7 @@ const Storage = () => {
       <Sidebar />
 
       <div className="flex-1 p-10">
-      <Topbar title="Storage" />
+        <Topbar title="Storage" />
 
         {/* Events */}
         <div className="grid grid-cols-3 gap-6">

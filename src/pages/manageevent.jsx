@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "./sidebar";
-import Topbar from "./topbar";
+import Sidebar from "../components/sidebar";
+import Topbar from "../components/topbar";
 import Cover from "../assets/images/cover.png"
 import Pencil from "../assets/images/pencil.png"
 const ManageEvents = () => {
@@ -31,7 +31,7 @@ const ManageEvents = () => {
           <div className="mb-4">
             <p className="text-gray-400 mb-1">Cover Image</p>
             <img
-              src= {Cover}
+              src={Cover}
               alt="Event Cover"
               className="rounded-lg w-full object-cover"
             />

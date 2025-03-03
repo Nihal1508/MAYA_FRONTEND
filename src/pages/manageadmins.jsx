@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "./sidebar";
-import Topbar from "./topbar";
+import Sidebar from "../components/sidebar";
+import Topbar from "../components/topbar";
 
 const adminRequests = [
   { id: 1, name: "Nived G", email: "nivedganga@gmail.com" },
@@ -17,7 +17,7 @@ const ManageAdmins = () => {
     <div className="min-h-screen bg-black text-white flex">
       <Sidebar />
       <div className="flex-1 p-10">
-      <Topbar title="Manage Admins" />
+        <Topbar title="Manage Admins" />
 
         <h2 className="text-3xl font-semibold">Manage Admins</h2>
         <p className="text-gray-400">20th Oct 2024</p>

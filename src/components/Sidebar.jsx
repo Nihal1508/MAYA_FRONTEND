@@ -15,20 +15,20 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="w-64 bg-black p-5">
-      <h1 className="text-2xl font-bold mb-8">Maya</h1>
+    <div className="w-64 bg-[#0B0B0Bff] p-6 flex flex-col items-start h-screen text-white">
+      <h1 className="text-2xl font-bold mb-16">Maya</h1>
       <nav>
         <ul>
           {navItems.map((item, index) => (
             <li key={item.path} className={index < navItems.length - 1 ? "mb-4" : ""}>
-              <Link 
-                to={item.path} 
+              <Link
+                to={item.path}
                 className="flex items-center space-x-2 hover:text-purple-400"
               >
-                <img 
-                  src={item.icon} 
-                  alt={item.label} 
-                  className="w-5 h-5" 
+                <img
+                  src={item.icon}
+                  alt={item.label}
+                  className="w-5 h-5"
                 />
                 <span>{item.label}</span>
               </Link>
