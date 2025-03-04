@@ -1,5 +1,4 @@
 import React from "react";
-import Sidebar from "../components/sidebar";
 import Topbar from "../components/topbar";
 import Cover from "../assets/images/cover.png"
 import Pencil from "../assets/images/pencil.png"
@@ -14,8 +13,7 @@ const ManageEvents = () => {
 
   return (
     <div className="max-h-screen bg-black text-white flex">
-      {/* Sidebar */}
-      <Sidebar />
+
 
       {/* Main Content */}
       <div className="flex-1 p-10">

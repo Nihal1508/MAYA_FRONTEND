@@ -9,6 +9,7 @@ import Dashboard from "./pages/dashboard";
 import Addevent from "./pages/addevent";
 import Manageadmins from "./pages/manageadmins";
 import PrivateRoute from './components/PrivateRoute';
+import Events from './pages/Events';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route element={<PrivateRoute />}>
                 <Route path='/storage' element={<Storage />} />
-                <Route path='/manageevent' element={<ManageEvent />} />
+                <Route path='/events' element={<Events />} />
                 <Route path='/dashboard' element={<Dashboard />} />
                 <Route path='/addevent' element={<Addevent />} />
                 <Route path='/manageadmins' element={<Manageadmins />} />

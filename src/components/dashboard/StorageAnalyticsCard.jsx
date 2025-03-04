@@ -4,7 +4,7 @@ function StorageAnalyticsCard() {
 
     return (
         <div className="bg-[#0B0B0B] relative rounded-2xl p-9 w-80 overflow-clip">
-            <div className='z-20 absolute left-9 flex flex-col items-start text-left'>
+            <div className='z-10 absolute left-9 flex flex-col items-start text-left'>
                 <h3 className="text-lg font-semibold mb-5">Storage</h3>
                 <p className='font-light text-sm'>Total<br /> <strong className='text-lg font-semibold'>10 GB</strong> used</p>
                 <p className='font-light text-sm'>Clustered<br /> <strong className='text-lg font-semibold'>32434</strong> images</p>

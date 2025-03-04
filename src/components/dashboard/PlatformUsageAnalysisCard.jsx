@@ -1,5 +1,5 @@
 import React from 'react'
-import LineChart from '../Linechart'
+import LineChart from './Linechart'
 
 function PlatformUsageAnalysisCard() {
     return (

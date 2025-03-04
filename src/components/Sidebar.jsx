@@ -9,7 +9,7 @@ import slackIcon from '../assets/images/slack.png';
 const Sidebar = () => {
   const navItems = [
     { path: "/dashboard", icon: homeIcon, label: "Dashboard" },
-    { path: "/manageevent", icon: layersIcon, label: "Manage Events" },
+    { path: "/events", icon: layersIcon, label: "Manage Events" },
     { path: "/storage", icon: databaseIcon, label: "Storage" },
     { path: "/manageadmins", icon: slackIcon, label: "Manage Admins" }
   ];
