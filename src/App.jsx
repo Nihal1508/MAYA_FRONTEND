@@ -10,6 +10,7 @@ import Addevent from "./pages/addevent";
 import Manageadmins from "./pages/manageadmins";
 import PrivateRoute from './components/PrivateRoute';
 import Events from './pages/Events';
+import Storageplus from './pages/storageplus';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
                 <Route path='/dashboard' element={<Dashboard />} />
                 <Route path='/addevent' element={<Addevent />} />
                 <Route path='/manageadmins' element={<Manageadmins />} />
+                <Route path='/storageplus' element={<Storageplus />} />
+                <Route path='/manageevent' element={<ManageEvent />} />
             </Route>
         </Routes>
     );

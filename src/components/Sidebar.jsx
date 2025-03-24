@@ -11,7 +11,7 @@ const Sidebar = () => {
     { path: "/dashboard", icon: homeIcon, label: "Dashboard" },
     { path: "/events", icon: layersIcon, label: "Manage Events" },
     { path: "/storage", icon: databaseIcon, label: "Storage" },
-    { path: "/manageadmins", icon: slackIcon, label: "Manage Admins" }
+   // { path: "/manageadmins", icon: slackIcon, label: "Manage Admins" }
   ];
 
   return (

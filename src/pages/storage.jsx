@@ -1,17 +1,17 @@
 import React from "react";
 import Topbar from "../components/topbar";
-import Event1 from "../assets/images/event1.png";
+import Event1 from "../assets/images/Event2.jpg";
 import EventTile from "../components/events/EventTile";
 import StorageTile from "../components/storage/StorageTile";
 
 const events = [
   {
-    id: 1,
-    name: "Anand & Radhika",
-    date: "1 Oct 2024",
-    description: "Reception",
-    storage: "2.3 GB",
-    images: "38734 images",
+     id: 1,
+     name: "Prithviraj Sukumaran",
+     date: "30th January 2025",
+     description: "Test1",
+     storage: "20mb",
+     images: "15",
     imageSrc: Event1,
   },
 ];
